@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="favicon.svg" />
+
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="logo">
+            <img src="logo.svg" alt="Tic Tac Toe">
+        </div>
+        <div class="mid">
+            <ul>
+                <li>Single Player</li>
+                <li>Multiple Player</li>
+                <li>Challengers</li>
+                <li>Rules</li>
+            </ul>
+        </div>
+    </nav>
+    <button class="btn" id="startButton">Start the Game</button>
+    <div class="container">
+        <div class="players">
+            Player - X
+            <div id="X" class="won"></div>
+            <div id="turnForX" class="span">Turn for Player - X </div>
+            <div class="gif" id="gifX"><img src="excited.gif" alt=""></div>
+        </div>
+        <div class="playingGrid">
+            <div class="line"></div>
+            <div class="boxes bl-0 bt-0"><span class="boxText"></span></div>
+            <div class="boxes bt-0"><span class="boxText"></span></div>
+            <div class="boxes br-0 bt-0"><span class="boxText"></span></div>
+            <div class="boxes bl-0 "><span class="boxText"></span></div>
+            <div class="boxes"><span class="boxText"></span></div>
+            <div class="boxes br-0 "><span class="boxText"></span></div>
+            <div class="boxes bl-0 bb-0 "><span class="boxText"></span></div>
+            <div class="boxes bb-0 "><span class="boxText"></span></div>
+            <div class="boxes bb-0 br-0  "><span class="boxText"></span></div>
+        </div>
+        <div class="players">
+            Player - 0
+            <div id="0" class="won"></div>
+            <div id="turnFor0" class="span">Turn for Player - 0</div>
+            <button class="btn" id="button">Reset</button>
+            <div class="gif" id="gif0"> <img src="excited.gif" alt=""></div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
