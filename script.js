@@ -20,7 +20,7 @@ const checkWin = () => {
     let boxText = document.getElementsByClassName('boxText')
     wins = [
         [0, 1, 2, 0, 5, 0],
-        [3, 4, 5, , 0, 15, 0],
+        [3, 4, 5, 0, 15, 0],
         [6, 7, 8, 0, 25, 0],
         [0, 3, 6, -10, 15, 90],
         [1, 4, 7, 0, 15, 90],
