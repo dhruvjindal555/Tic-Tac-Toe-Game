@@ -173,5 +173,8 @@ body {
         padding: 5px;
         font-size: 0.9rem;
     }
+    .line{
+        height: 3px;
+    }
     
 }
