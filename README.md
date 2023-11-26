@@ -1,4 +1,4 @@
-Tic Tac Toe Game
+<h1>Tic Tac Toe Game</h1>
 A simple implementation of the classic Tic Tac Toe game using HTML, CSS, and JavaScript. Play against a friend and see who can get three in a row first!
 
 Table of Contents
